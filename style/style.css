@@ -1,21 +1,22 @@
 body {
-    background-color: #100645;
+    background-color: darkblue;
     color: white;
     font-family: 'Livvic', sans-serif;
 }
 
 header {
-    height: 280px;
+    height: 230px;
     background:
         url(../images/header-bg.png) center 2px / cover no-repeat,
-        #2e28ec;
+        #2D28EB;
     border-radius: 0px 0px 40px 40px;
 }
 
 #calendar {
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .box {
@@ -25,9 +26,9 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: calc((100% / 8) - 20px);
+    width: calc((100% / 8) - 30px);
     background-color: #2E6753;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .box.opened {
@@ -57,7 +58,7 @@ header {
 }
 
 .box img {
-    height: 40px;
+    height: 60px;
 }
 
 .overlay {
